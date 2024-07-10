@@ -186,7 +186,7 @@
 }
 
 /* experience */
-.current-experience{
+.current-experience {
     width: 1140px;
     margin: 48px auto;
     margin-top: 88px;
@@ -203,17 +203,66 @@
     margin-top: 16px;
 }
 
-.expreience-content{
+.expreience-content {
     width: 90%;
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-.expreience-content h3{
+
+.expreience-content h3 {
     font-size: 24px;
     font-weight: 800;
 }
-.expreience-content a{
+
+.expreience-content a {
     color: #000;
     font-size: 20px;
+}
+
+
+.get-in-touch {
+    border-radius: 16px;
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/handshake.jpg");
+    width: 1140px;
+    height: 400px;
+    margin: 88px auto;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;    
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.get-in-touch h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.get-in-touch input{
+    border: 1px solid gray;
+    width: 500px;
+    color: black;
+    padding: 16px 18px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.get-in-touch button{
+    padding: 16px;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.get-in-touch-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
