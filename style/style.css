@@ -1,7 +1,8 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Neutralize Default styles */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,34 +12,39 @@
     font-size: 16px;
     font-family: "Azeret Mono", monospace;
 }
+
 /* common class */
-.container{
+.container {
     max-width: 1400px;
-    width:100%;
+    width: 100%;
     margin: 0 auto;
 }
+
 /* Banner style  */
-.nav-bar{
+.nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 32px 0;
 }
-.nav-bar h2{
-    color:rgb(13,19,33);
+
+.nav-bar h2 {
+    color: rgb(13, 19, 33);
     font-size: 28px;
     font-weight: 800;
-    
+
 }
-.nav-bar button{
-    border: 1px solid rgb(13,19,33);
+
+.nav-bar button {
+    border: 1px solid rgb(13, 19, 33);
     padding: 12px 18px;
-    color: rgb(13,19,33);
+    color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
     border-radius: 8px;
 }
-.banner{
+
+.banner {
     height: 650px;
     background-image: url(/assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -47,29 +53,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px dashed rgba(135,136,139,0.288);
+    border: 2px dashed rgba(135, 136, 139, 0.288);
 }
-.banner-title{
-    color: rgb(13,19,33);
+
+.banner-title {
+    color: rgb(13, 19, 33);
     font-size: 48px;
     text-align: center;
     margin: 32px 0;
 }
-.banner-button{
+
+.banner-button {
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     color: white;
-    background: rgb(13,19,33);
+    background: rgb(13, 19, 33);
     margin-top: 32px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 1000px;
     text-align: center;
-    
+
 }
 
 /*Development style */
-.dev-section{
+.dev-section {
     max-width: 1000px;
     margin: 0 auto;
     padding: 80px 97px;
@@ -77,44 +86,51 @@
     background: #4854720e;
     margin-top: 82px;
 }
-.dev-header h2{
+
+.dev-header h2 {
     font-weight: 800;
     font-size: 32px;
     margin-bottom: 24px;
 }
-.dev-header{
-    background: rgb(255,255,255);
+
+.dev-header {
+    background: rgb(255, 255, 255);
     padding: 24px 60px;
     text-align: center;
 }
+
 /* card styles */
-.card-container h3{
+.card-container h3 {
     font-weight: 700;
     font-size: 24px;
 }
-.card-container button{
+
+.card-container button {
     background: transparent;
     border: 1px solid black;
     padding: 12px 18px;
     width: fit-content;
 }
-.card-container{
+
+.card-container {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background-color: rgba(255,255,255,0.151);
+    background-color: rgba(255, 255, 255, 0.151);
 }
-.card{
+
+.card {
     width: 850px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 16px;
-    background: rgba(255,255,255,0.473);
+    background: rgba(255, 255, 255, 0.473);
     padding: 48px;
     margin-top: 48px;
 }
-#card-2{
+
+#card-2 {
     flex-direction: row-reverse;
 }
 
@@ -123,15 +139,46 @@
 /* inspiration style */
 
 
-.inspiration-section{
-   
+.inspiration-section {
+
     max-width: 1140px;
     margin: 88px auto;
 }
 
-#youtub-video{
+#youtub-video {
     border: 1px solid gray;
     padding: 20px;
     border-radius: 16px;
+    margin-top: 48px;
+}
+
+.current-terget {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.element {
+    width: 364px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.element h3{
+    font-weight: 800;
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+.element a{
+    color: #000;
+    font-weight: 600;
+    margin-top: 16px;
+    display: inline-block;
+}
+
+.element-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 48px;
 }
